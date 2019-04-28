@@ -1,0 +1,116 @@
+[ec2-user@ip-10-0-0-135 website]$ [ec2-user@ip-10-0-0-135 website]$ history
+    1  sudo yum install docker
+    2  aws s3 ls
+    3  touch text2.txt
+    4  aws s3 cp text2.txt s3://awslearning-z
+    5  vi
+    6  sudo docker run -d -p 80:5000 flask-sample-one
+    7  vi app.py
+    8  sudo docker run -d -p 80:5000 flask-sample-one
+    9  sudo docker ps
+   10  sudo docker run  -p 80:5000 flask-sample-one
+   11  sudo docker build -t flask-sample-one:latest .
+   12  sudo docker run  -p 80:5000 flask-sample-one
+   13  vi app.py
+   14  sudo docker run  -p 80:5000 flask-sample-one
+   15  vi app.py
+   16  sudo docker run  -p 80:5000 flask-sample-one
+   17  vi app.py
+   18  sudo docker run  -p 80:5000 flask-sample-one
+   19  vi app.py
+   20  sudo docker built -t flask-sample-one:latest .
+   21  sudo docker run  -p 80:5000 flask-sample-one
+   22  sudo docker build -t flask-sample-one:latest .
+   23  sudo docker run  -p 80:5000 flask-sample-one
+   24  sudo docker images
+   25  sudo service docker start
+   26  sudo docker images
+   27  sudo docker runs hello-app
+   28  sudo docker run hello-world
+   29  sudo docker images
+   30  sudo docker ps
+   31  sudo docker ps -a
+   32  mkdir
+   33  mkdir A230
+-bash: [ec2-user@ip-10-0-0-135: command not found
+[ec2-user@ip-10-0-0-135 website]$     1  sudo yum install docker
+-bash: 1: command not found
+[ec2-user@ip-10-0-0-135 website]$     2  aws s3 ls
+-bash: 2: command not found
+[ec2-user@ip-10-0-0-135 website]$     3  touch text2.txt
+   34  cd A230
+   35  vi apt.py
+   36  cd A230
+   37  ls
+   38  touch app.py
+   39  cp apt.py app.py
+   40  cat app.py
+   41  python app.py
+   42  vim requirement.txt
+   43  python app.py
+   44  vi Dockerfile
+   45  sudo docker build -t flask-sample-one:latest
+   46  ls
+   47  sudo docker build -t flask-sample-one:latest .
+   48  ls
+   49  mv requirement.txt requirements.txt
+   50  sudo docker build -t flask-sample-one:latest .
+   51  cat requirements.txt
+   52  cd A230
+   53  sudo docker stop 54.89.152.232
+   54  sudo docker ps
+   55  sudo docker 3564a4ba5335
+   56  sudo docker stop 3564a4ba5335
+   57  sudo docker start 3564a4ba5335
+   58  sudo docker ps
+   59  sudo docker stop 3564a4ba5335
+   60  sudo docker ps
+   61  sudo docker run 3564a4ba5335
+   62  sudo docker ps -a
+   63  sudo docker ps
+   64  sudo docker start 3564a4ba5335
+   65  sudo docker ps
+   66  cd A230
+   67  sudo docker ps
+   68  sudo docker run -dit --name tecmint-web -p 8080:80 -v /home/user/website/:/usr/local/apache2/htdocs/ httpd:2.4
+   69  sudo docker run -dit --name tecmint-web -p 8080:80 -v /home/user/website/:/usr/local/apache2/htdocs/ flask-sample-one
+   70  sudo docker run -dit --name keen_turning -p 8080:80 -v /home/user/website/:/usr/local/apache2/htdocs/ flask-sample-one
+   71  sudo docker images
+   72  sudo docker ps
+   73  sudo docker run -dit --name -p 8080:79 -v /home/user/website/:/usr/local/apache2/htdocs/ flask-sample-one
+   74  sudo docker run -dit --name -p 8081:79 -v /home/user/website/:/usr/local/apache2/htdocs/ flask-sample-one
+   75  sudo docker run -dit --name -p 8079:79 -v /home/user/website/:/usr/local/apache2/htdocs/ flask-sample-one
+   76  sudo docker run -dit --name -p 8079:79 -v /home/user/website/:/usr/local/apache2/htdocs/ httpd:2.4
+   77  sudo docker run -dit --name -p 8079:79 -v /home/user/website/:/usr/local/apache2/htdocs/ flask-sample-one
+   78  docker login
+   79  sudo docker login
+   80  sudo docker run -dit --name webserver -p 8079:79 -v /home/user/website/:/usr/local/apache2/htdocs/ httpd:2.4
+   81  sudo docker ps
+   82  pwd
+   83  cd ..
+   84  pwd
+   85  mkdir user
+   86  ls
+   87  cd user
+   88  ls
+   89  cd website
+   90  ls
+   91  sudo service httpd start
+   92  sudo docker ps
+   93  curl https://www.google.com
+   94  curl http://localhost:8079
+   95  curl http://127.0.0.1:8079
+   96  sudo docker ps
+   97  curl http://127.0.0.1
+   98  nano index.html
+   99  sudo nano index.html
+  100  curl http://127.0.0.1:8079
+  101  curl http://127.0.0.1:8080
+-bash: 3: command not found
+  102  pwd
+  103  cd ..
+  104  ls
+  105  cd user
+  106  cd website
+  107  ls
+  108  history
